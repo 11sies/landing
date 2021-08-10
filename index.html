@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>landing</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!--
+  This page was created by @11sies as a project for freecodecamp.org
+  The project parameters can be found here:
+  https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
+
+  Note: The specifications required a number of specific IDs to be used for scoring purposes. I would not normally use this many IDs.
+-->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
+
+<header id="header">
+  <div class="logo-and-product">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/OOjs_UI_icon_trash.svg" id="header-img">
+    <h1>product</h1>
+  </div>
+  <nav id="nav-bar">
+    <ul>
+      <li><a href="#home">
+          <div class="nav-link">Home</div>
+        </a></li>
+      <li><a href="#features">
+          <div class="nav-link">Features</div>
+        </a></li>
+      <li><a href="#video">
+          <div class="nav-link">Video</div>
+        </a></li>
+      <li><a href="#newsletter">
+          <div class="nav-link">Newsletter</div>
+        </a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="section negative-one" id="home">
+    <div class="hero">
+      <img alt="shiny trash can" width="256" height="256" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Crystal_Project_Trashcan_empty.png">
+      <div class="hero-desc">simplicity. &nbsp;elegance. &nbsp;trash.</div>
+    </div>
+  </div>
+  <div class="section zero">
+    <div class="zero-grid">
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <img alt="full trash can" width="128" height="128" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/User-trash-full_Mac.png">
+      <div>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+      <img alt="empty trash can" width="128" height="128" src="https://upload.wikimedia.org/wikipedia/commons/1/13/User-trash_Mac.png">
+    </div>
+  </div>
+  <div class="section one" id="features">
+    <div class="featgrid-wrap">
+      <div class="feature-grid">
+        <img class="diamond feature-icon" alt="diamond icon" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Toicon-icon-afiado-dazzle.svg">
+        <h2>high cost.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <img class="battery feature-icon" alt="low-battery icon" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Breezeicons-status-22-battery-020.svg">
+        <h2>inefficient.</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <img class="checkmark feature-icon" alt="checkmark icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/OOjs_UI_icon_check-constructive.svg">
+        <h2>inconsistent icons.</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      </div>
+    </div>
+  </div>
+  <div class="section two" id="video">
+    <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/i7gIpuIVE3k" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="section three" id="newsletter">
+    <div class="signup-wrapper">
+      <p class="signup-description">
+        Our newsletter is cool. Really really cool. Please please please sign up to our newsletter. Please please please sign up. Please please please <del>give us your data</del>.
+      </p>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input class="user-interface" type="email" placeholder="Email" id="email" name="email">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer>
+  This page was created as a project for <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page">freecodecamp.org</a>
+</footer>
+</body>
+</html>
